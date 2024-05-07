@@ -1,0 +1,18 @@
+body{
+    background-image: url(https://png.pngtree.com/background/20210712/original/pngtree-cute-hand-drawn-style-mathematics-education-pink-background-picture-image_1176711.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container {
+    /* Ajustes generales para el contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 200px; /* Espacio alrededor del contenido */
+    background-size: 100%; /* Ajusta el tamaño de la imagen para que se ajuste dentro del contenedor */
+    background-repeat:no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+  }
+  
+h1{
+    font-size:90px;
+}
