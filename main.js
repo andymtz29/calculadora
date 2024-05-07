@@ -24,11 +24,11 @@ const calcular = () => {
             moda.push(num);
         }
     }
-    document.getElementById('resultado-moda').innerText = moda.length === 0 ? 'No hay moda' : 'La moda es: ' + moda.join(', ');
+    document.getElementById('resultado-moda').innerText = moda.length === 0 ? 'No hay moda intenta anotar otro numero' : 'La moda es: ' + moda.join(', ');
 
     // Calcular la mediana
     numeros.sort((a, b) => a - b);
     const mediana = numeros.length % 2 === 0 ? (numeros[numeros.length / 2 - 1] + numeros[numeros.length / 2]) / 2 : numeros[Math.floor(numeros.length / 2)];
     
-    document.getElementById('resultado-mediana').innerText = 'La mediana es: ' + mediana;
+    document.getElementById('resultado-mediana').innerText = 'La mediana es : ' + mediana;
 }
